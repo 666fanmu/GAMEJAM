@@ -45,17 +45,92 @@
     <Analyzer Include="E:\Unity_engine\2022.3.5f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BasePanel.cs" />
-     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Base\BasePanel.cs" />
+     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
+     <Compile Include="Assets\SmartTimersManager\TimerManager\Timer.cs" />
+     <Compile Include="Assets\Scripts\Controls\CharacterController2D.cs" />
+     <Compile Include="Assets\SmartTimersManager\TimerManager\GUI_TimersList.cs" />
+     <Compile Include="Assets\Scripts\Collection\Collection.cs" />
+     <Compile Include="Assets\Scripts\Controls\PlayerControl.cs" />
+     <Compile Include="Assets\SmartTimersManager\ChainedTimers.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\SafeArea\SafeArea.cs" />
+     <Compile Include="Assets\SmartTimersManager\ScriptExamples\RedLightFlicker.cs" />
+     <Compile Include="Assets\SmartTimersManager\TimerManager\TimersManager.cs" />
+     <Compile Include="Assets\Scripts\Controls\Function.cs" />
+     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Collection\GenerateCollection.cs" />
+     <Compile Include="Assets\SmartTimersManager\ScriptExamples\BlueLightFlicker.cs" />
+     <Compile Include="Assets\Scripts\SafeArea\Boundary.cs" />
      <Folder Include="Assets" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\PowerUps" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Sword Blocks" />
+     <Folder Include="Assets\Resources" />
+     <Folder Include="Assets\Assets\UI Elements\White\1x" />
+     <Folder Include="Assets\Scripts\Base" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Flame Bursts" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite" />
      <Folder Include="Assets\Assets" />
+     <Folder Include="Assets\Assets\UI Elements\Black\1x" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Explosions" />
      <Folder Include="Assets\Settings" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Car Passes" />
+     <Folder Include="Assets\Assets\UI Elements\Extras" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Sword Slashes" />
+     <Folder Include="Assets\Assets\UI Elements" />
+     <Folder Include="Assets\Scripts\Collection" />
+     <Folder Include="Assets\Assets\UI Elements\White\2x" />
+     <Folder Include="Assets\Animations" />
+     <Folder Include="Assets\SmartTimersManager\TimerManager" />
+     <Folder Include="Assets\Assets\Background" />
+     <Folder Include="Assets\Assets\动画帧\rush" />
+     <Folder Include="Assets\Animations\player1" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Jumps" />
      <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Deaths" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\UI Data Up" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\UI Clicks Positive" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Wind" />
      <Folder Include="Assets\Settings\Scenes" />
+     <Folder Include="Assets\Animations\player2" />
+     <Folder Include="Assets\Assets\动画帧\move" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Lasers" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\UI Clicks Neutral" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Reloads" />
+     <Folder Include="Assets\SmartTimersManager\Gizmos" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Engines" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\UI Clicks Special" />
+     <Folder Include="Assets\SmartTimersManager" />
+     <Folder Include="Assets\Scripts\Controls" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\UI Data Constant" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Falls" />
+     <Folder Include="Assets\Assets\p2" />
      <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\Assets\Collection" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\Circle512" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\UI Data Down" />
+     <Folder Include="Assets\Assets\UI Elements\Black\2x" />
+     <Folder Include="Assets\Prefabs\Collection" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Alarms" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\UI Clicks Negative" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\Circle128" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Sword Unsheaths" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Transitions" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\ProgressBars" />
+     <Folder Include="Assets\Assets\UI Elements\White" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\Rects" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Whooshes" />
+     <Folder Include="Assets\SmartTimersManager\ScriptExamples" />
      <Folder Include="Assets\Scripts\Managers" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Cash" />
+     <Folder Include="Assets\Assets\UI Elements\Extras\Circle256" />
+     <Folder Include="Assets\Scripts\SafeArea" />
      <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\Assets\动画帧" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Coin Collects" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Fire" />
+     <Folder Include="Assets\Assets\True 8-bit Sound Effect Collection - Lite\Gunshots" />
+     <Folder Include="Assets\Assets\UI Elements\Black" />
      <Reference Include="UnityEngine">
      <HintPath>E:\Unity_engine\2022.3.5f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -307,6 +382,9 @@
      </Reference>
      <Reference Include="Unity.Collections.LowLevel.ILSupport">
      <HintPath>D:\Unity Programs\GAMEJAM\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:\Unity Programs\GAMEJAM\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>D:\Unity Programs\GAMEJAM\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -844,6 +922,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0b161407-35da-92ec-8089-b7e5acaa8ca5}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

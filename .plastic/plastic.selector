@@ -1,0 +1,4 @@
+repository "GAMEJAM@gamejam-111@cloud.cn"
+  path "/"
+    smartbranch "/main" 
+     
